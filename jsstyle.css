@@ -1,12 +1,15 @@
 html, body {
+    color: black;
+    text-align: center;
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: Arial, Helvetica, sans-serif
+    
+    
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgba(128, 0, 0, 0.553);
 }
 
 .top-bar {
@@ -21,12 +24,12 @@ body {
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
-   font-weight: bold;
+   color: whitesmoke;
+   font-weight: bolder;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: black;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -35,8 +38,8 @@ body {
 
 .top-menu ul {
     list-style-type: none;
-    font-size: 20px; 
-    float: right;
+    font-size: 10px; 
+    float: left;
     margin-right: 20px;
 }
 
@@ -46,16 +49,16 @@ body {
 
 .top-menu li a:link, .top-menu li a:visited {
     color: white;
-    text-decoration: none;
+    text-transform: uppercase;
     padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: grey;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: grey;
 }
 
 .page-content {
@@ -73,7 +76,9 @@ body {
 }
 
 .main-section h1, .main-section h2 {
-    color: black;
+    color: grey;
+    font-size: large;
+    text-decoration-line: underline;
 }
 
 .main-section figure, .main-section img {
@@ -89,15 +94,17 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color: grey;
+    color: maroon;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: white;
+    color: maroon;
 }
 
 .footer-content a:link {
     color: white;
-    text-decoration: none;
+    font-size: small;
+    text-decoration-line: underline;
 }

@@ -1,8 +1,10 @@
 html, body {
+    color: gray;
     margin: 0;
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     
 }
 
 .top-bar {
@@ -19,6 +21,7 @@ html, body {
     z-index: 3;
     color: #131359;
     font-weight: bold;
+    font-family: monospace;
 }
 
 .top-menu {
@@ -48,13 +51,13 @@ html, body {
 .top-menu li a:hover {
     border-style: solid;
     border-width: 0px 0px 4px 0px;
-    border-color: red;
+    border-color: black;
 }
 
 .current-page-link {
     border-style: solid;
     border-width: 0px 0px 4px 0px;
-    border-color: darkblue;
+    border-color: grey;
 }
 
 .page-content {
@@ -65,6 +68,8 @@ html, body {
 	margin-right: auto;
 	background-color: white;
     z-index: 1;
+    text-align: justify;
+    font-family: monospace;
 }
 
 .main-section {
@@ -73,6 +78,7 @@ html, body {
 
 .main-section h1, .main-section h2 {
     color: black;
+    font-family: monospace
 }
 
 .main-section figure, .main-section img {
